@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Permissões em Tempo de Execução</string>
+    <string name="chamada">Faça uma Chamada</string>
+    <string name="permission_denied">Permissão foi Recusada</string>
+    <string name="never_ask_again_dialog">Para que possamos fazer uma ligação através do APP é preciso que acesse as configurações de permissão e aceite</string>
+    <string name="permission_dialog_title">Permissão</string>
+    <string name="go_to_settings">Ir para as Configurações</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="more_info_dialog">Para podermos fazer uma ligação é necessário que concedas a permissão</string>
+</resources>

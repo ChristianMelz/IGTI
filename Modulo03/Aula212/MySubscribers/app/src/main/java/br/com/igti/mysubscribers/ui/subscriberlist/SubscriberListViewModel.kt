@@ -18,7 +18,7 @@ class SubscriberListViewModel(private val repository: SubscriberRepository):View
     val deleteAllSubscribersEvent:LiveData<Unit>
     get() = _deleAllSubscribersEvent
 
-    fun getSubscrivebers() = viewModelScope.launch {
+    fun getSubscribers() = viewModelScope.launch {
         try {
             repository.deleteAllSubscriber()
             _deleAllSubscribersEvent.postValue(Unit)
